@@ -30,3 +30,8 @@ async function data() {
 
 
 qbtn.addEventListener('click', data);
+
+qbtn.addEventListener('click', ()=>{
+    quotes.innerText = 'Loading... Please Wait '
+    author.innerText = '';
+})
